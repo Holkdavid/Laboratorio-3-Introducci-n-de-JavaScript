@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Estilizada</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calculator">
+        <h1>Calculadora</h1>
+        <div class="input-section">
+            <label for="num1">Número 1:</label>
+            <input type="number" id="num1" placeholder="Ingrese el primer número">
+        </div>
+        <div class="input-section">
+            <label for="num2">Número 2:</label>
+            <input type="number" id="num2" placeholder="Ingrese el segundo número">
+        </div>
+        <div class="input-section">
+            <label for="operation">Operación:</label>
+            <select id="operation">
+                <option value="suma">Suma</option>
+                <option value="resta">Resta</option>
+                <option value="multiplicacion">Multiplicación</option>
+                <option value="division">División</option>
+            </select>
+        </div>
+        <button id="calculate">Calcular</button>
+        <p id="result">Resultado: --</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
